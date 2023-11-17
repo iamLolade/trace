@@ -16,7 +16,7 @@ const Navbar = () => {
     return (
         <nav className='flex space-x-8 border-b mb-5 px-16 h-14 items-center'>
             <Link href="/">
-                <GiSpottedBug size={24} />
+                <GiSpottedBug size={28} />
             </Link>
             <ul className='flex space-x-6'>
                 {links?.map(link => (
